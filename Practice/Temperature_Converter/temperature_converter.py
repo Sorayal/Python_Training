@@ -17,6 +17,9 @@ def make_convert_choice():
 or number 2 if you want to convert to Fahrenheit. """
     global choice
     choice = int(input(text))
+
+
+def print_result():
     match choice:
         case 1:
             print("The temperature is %.2f Celsius." % convert_to_celsius(value))
@@ -38,3 +41,4 @@ if __name__ == "__main__":
     print("Welcome to Celsius-Fahrenheit Converter")
     take_input()
     make_convert_choice()
+    print_result()
