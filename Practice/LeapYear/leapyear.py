@@ -41,3 +41,10 @@ if isLeap:
     print("Dieses Jahr ist ein Schaltjahr")
 else:
     print("Dieses Jahr ist kein Schaltjahr")
+
+# even shorter version
+isleap = year % 4 == 0 and not year % 100 == 0 or year % 400 == 0
+if isLeap:
+    print("Dieses Jahr ist ein Schaltjahr")
+else:
+    print("Dieses Jahr ist kein Schaltjahr")
