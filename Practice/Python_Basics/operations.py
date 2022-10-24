@@ -1,5 +1,5 @@
 
-# Arittmetic operations <operator> <operation> <operator>
+# Arithmetic operations <operator> <operation> <operator>
 # binary operator
 print(20 + 30)  # 50
 
@@ -35,16 +35,23 @@ print(a)
 a -= 1
 print(a)
 
-# More operations
+# More operations, even when the numbers would be Integer with division, multiply and power + float the result
+# becomes a float.
 a = 20
 print(a)
 a /= 2
 print(a)  # 10.0
+print(a * a)  # 100.0
+print(2 ** 2)
 
-# Power , in Java there is Math.pow() for that feature
+# Difference between 19/5 and 19//5
+print(19/5)  # 3.8
+print(19//5)  # 3 , no round when printing the integer number instead float like above
+
+# Power , in Java there is Math.pow() for this operation
 print(2 ** 4)  # 16
 
-# Quadrat, root of 2
+# Square, root of 2
 print(2 ** 0.5)  # 1.41...
 
 # Modulo, calculation of remainder
